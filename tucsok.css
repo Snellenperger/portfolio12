@@ -1,0 +1,61 @@
+body {
+    background-color: #333; /* Grafit háttérszín */
+    color: #fff; /* Fehér szöveg */
+    font-size: 1rem; /* Alapértelmezett betűméret */
+    text-align: center; /* Szövegek középre igazítása */
+}
+
+header {
+    margin: 1rem 0;
+}
+
+main {
+    margin: 1rem;
+}
+
+h3 {
+    margin-top: 2rem;
+}
+
+.image-description {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0.3rem; /* Módosított margin */
+    
+}
+
+.image-description img {
+    width: 700px; /* Kép szélessége */
+    height: 400px; /* Kép magassága */
+    margin: 0.3rem; /* Módosított margin */
+}
+
+.images {
+    display: flex;
+    justify-content: center; /* Képek középre igazítása */
+    margin: 0.3rem; /* Módosított margin */
+}
+
+.images img {
+    width: 500px; /* Képek szélessége */
+    height: 400px; /* Képek magassága */
+    margin: 0.3rem; /* Módosított margin */
+}
+
+.media {
+    display: flex;
+    justify-content: center; /* Médiák középre igazítása */
+    align-items: center;
+    margin: 0.3rem; /* Módosított margin */
+}
+
+.media img,
+.media video {
+    width: 500px; /* Médiák szélessége */
+    height: 400px; /* Médiák magassága */
+    margin: 0.3rem; /* Módosított margin */
+}
+
+
+

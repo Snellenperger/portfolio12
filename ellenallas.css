@@ -1,0 +1,49 @@
+body {
+    background-color: #333; /* Grafit háttérszín */
+    color: #fff; /* Fehér szöveg */
+    font-size: 1rem; /* Alapértelmezett betűméret */
+}
+
+header {
+    text-align: center; /* Cím középre igazítása */
+    margin: 1rem 0;
+}
+
+.resistance-data {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem; /* Nagyobb betűméret a listaelemekben */
+    margin: 0;
+    text-align: center; /* A lista középre igazítása */
+}
+
+.resistance-data li {
+    margin-bottom: 0.5rem;
+}
+
+.solution {
+    font-size: 1.4rem; /* Nagyobb betűméret a "Megoldás:" címkében */
+    margin: 2rem 0;
+    text-align: center; /* A "Megoldás:" középre igazítása */
+}
+
+.images {
+    display: flex; /* Képek egymás mellé */
+    justify-content: center; /* Képek középre igazítása */
+    margin-top: 1rem; /* Térköz a képek és a "Megoldás:" között */
+}
+
+.images img {
+    width: 800px; /* Képek szélessége */
+    height: 600px; /* Képek magassága */
+    margin: 0.2rem; /* Képek közötti térköz */
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+

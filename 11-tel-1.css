@@ -1,0 +1,89 @@
+body {
+    background-color: #AA336A; /* Sötétebb rózsaszín háttérszín */
+    color: #000; /* Fekete szövegszín */
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    margin: 1rem 0;
+}
+
+main {
+    margin: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2, h3 {
+    font-size: 1.5rem;
+}
+
+.project-list {
+    list-style: none;
+    padding: 0;
+}
+
+.project-list li {
+    display: inline-block;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    margin: 0.3rem;
+    cursor: pointer;
+}
+
+.gallery img:hover {
+    opacity: 0.7;
+}
+
+footer {
+    margin-top: 1rem;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0.3rem;
+}
+
+.images2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0.3rem;
+}
+
+.images img {
+    width: 450px;
+    height: 400px;
+    object-fit: cover;
+    margin: 0.3rem;
+}
+
+.images2 img {
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+    margin: 0.3rem;
+
+}
+
+
+

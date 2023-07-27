@@ -1,0 +1,49 @@
+/* Az előző style.css fájl tartalma marad változatlan */
+
+/* Új stílusok a 11-es Projektjeim oldalhoz */
+body {
+    background-color: #333; /* Grafit háttérszín */
+    color: #fff; /* Fehér szövegszín */
+}
+
+.page-title {
+    text-align: center; /* Az oldal neve és a szakmai tanárod neve középre igazítva */
+    font-size: 1.8rem; /* Nagyobb betűméret a címsorban */
+    margin-top: 1rem;
+}
+
+.project-list {
+    font-size: 1.2rem; /* Nagyobb betűméret a listaelemekben */
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.project-list li {
+    margin-bottom: 1rem;
+}
+
+.project-list li a {
+    color: #fff; /* Fehér szövegszín a linkekben */
+    text-decoration: none; /* Linkek aláhúzása eltávolítva */
+}
+
+.instructor {
+    font-size: 1rem; /* Kisebb betűméret a tanár nevében */
+    margin-top: 1rem;
+    text-align: center; /* A tanár neve középre igazítva */
+}
+
+/* Az oldal tartalma középre igazítva */
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Az oldal tartalmának szélessége */
+.page-content {
+    max-width: 800px;
+    margin: 0 1rem;
+    text-align: center; /* A tartalom középre igazítása */
+}
+

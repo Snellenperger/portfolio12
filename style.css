@@ -1,0 +1,76 @@
+/* Az előző style.css fájl tartalma maradhat változatlan */
+
+/* Az új stílusok a navigációs sávhoz */
+nav {
+    background-color: #007bff;
+    padding: 0.5rem;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Reszponzív stílusok */
+@media screen and (max-width: 768px) {
+    /* Ezen a ponton a képernyő szélessége 768 képpontnál vagy kisebb */
+    nav {
+        padding: 0.5rem 1rem;
+    }
+    .navbar-container {
+        flex-direction: column;
+    }
+    nav a {
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .tabs {
+        display: flex;
+        justify-content: space-around;
+        background-color: #007bff;
+        padding: 0.5rem;
+        margin-top: 1rem;
+    }
+    
+    .tabs .tablink {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2rem; /* Alapértelmezett betűméret */
+    }
+    
+    /* Reszponzív stílusok */
+    @media screen and (max-width: 768px) {
+        /* Ezen a ponton a képernyő szélessége 768 képpontnál vagy kisebb */
+        nav {
+            padding: 0.5rem 1rem;
+        }
+        .navbar-container {
+            flex-direction: column;
+        }
+        nav a {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Kis méretű fülek (tabs) */
+        .tabs {
+            flex-direction: column;
+            margin-top: 0.5rem;
+        }
+        .tabs .tablink {
+            font-size: 1rem; /* Kisebb betűméret */
+            margin-bottom: 0.5rem;
+        }
+    }
+
+
+    
+}
+

@@ -1,0 +1,60 @@
+body {
+    background-image: url("Telekom-gives-2GB-data-packet-after-dial-up-fails.jpg");
+    background-repeat: no-repeat;
+    color: #000;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    margin: 1rem 0;
+}
+
+main {
+    margin: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.project-list {
+    list-style: none;
+    padding: 0;
+}
+
+.project-list li {
+    display: inline-block;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+.project-list li a {
+    color: black;
+}
+
+.gallery {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.gallery img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.gallery img:hover {
+    opacity: 0.7;
+}
+
+footer {
+    margin-top: 1rem;
+    justify-content: end;
+}
+
+
